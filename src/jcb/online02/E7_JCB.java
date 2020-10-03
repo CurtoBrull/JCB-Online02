@@ -2,11 +2,11 @@ package jcb.online02;
 import java.util.Scanner;
 
 public class E7_JCB {
-
-    public static void main(String[] args) {
         /* 
         Muestre la tabla de multiplicar de un número introducido por teclado.
         */
+    public static void main(String[] args) {
+        // Solicitamos al usuario un numero y lo guardamos en una variable
         Scanner teclado = new Scanner(System.in);
         System.out.print("Introducir el número: ");        
         int numero = teclado.nextInt();        
